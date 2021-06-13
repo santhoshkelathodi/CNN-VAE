@@ -1,0 +1,184 @@
+/home/dpd/tensorflow/bin/python /home/dpd/PycharmProjects/VAE_ADVANCED/t15_evaluate_anomaly_one_autoencoder_oneshot_unrefined.py
+WARNING:tensorflow:From /home/dpd/tensorflow/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+single_auto_all
+../T15_UNREFINED/trained_model/class_all_model_hd500_ld6_e500
+Reading training images
+Loading yes files (Index: 0)
+Loading no files (Index: 1)
+136
+2018-06-24 15:54:57.702348: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-06-24 15:54:57.783376: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-24 15:54:57.783877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:01:00.0
+totalMemory: 15.90GiB freeMemory: 15.40GiB
+2018-06-24 15:54:57.783889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-24 15:54:57.971699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-24 15:54:57.971742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-24 15:54:57.971748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-24 15:54:57.972029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14927 MB memory) -> physical GPU (device: 0, name: Quadro P5000, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Restored model
+testing threshold 600.0
+136
+2608.2356
+504.5928
+1535.8306
+2015.8
+1046.8794
+1742.1582
+1955.7703
+2550.861
+618.7301
+4620.3027
+2911.8962
+2448.6216
+1936.5511
+3246.8306
+4002.5518
+1449.0908
+2438.393
+1847.63
+1152.5427
+1812.8232
+3843.1252
+5323.1685
+1943.3716
+2227.7302
+1817.7833
+545.25366
+1307.8123
+3409.8997
+1748.3341
+1815.6765
+2912.4092
+2256.7078
+1783.372
+1909.2966
+1183.1112
+2690.886
+2674.8071
+2149.576
+1549.6361
+3416.504
+2179.2185
+1574.8158
+1760.3597
+1175.5397
+2208.9795
+2627.5984
+2961.1023
+1487.2632
+1316.0455
+4796.49
+7057.433
+3877.3467
+1506.5409
+1541.574
+3165.2625
+2513.6785
+2922.3645
+892.32263
+1159.5564
+878.6248
+557.1468
+674.3849
+983.02527
+1060.6698
+1160.2822
+950.62274
+1047.35
+1095.3647
+832.2473
+1444.109
+857.4856
+5424.143
+1216.4294
+1163.0356
+3501.3213
+957.57025
+671.5369
+614.55945
+950.9392
+599.55237
+868.9722
+1005.44855
+2542.033
+1052.457
+1066.4365
+2119.7134
+950.3381
+733.73315
+1612.2089
+794.65656
+1783.3383
+745.02875
+823.8125
+2477.5103
+1205.5881
+856.7454
+676.4722
+1208.9896
+3065.2795
+811.7402
+997.17163
+1003.5211
+753.6147
+1527.3875
+1040.4065
+713.4567
+810.95184
+1173.0892
+4720.623
+532.4932
+863.02515
+893.2139
+1372.5447
+818.48
+985.35315
+970.6216
+974.5763
+624.95795
+1605.3827
+509.93762
+2292.9114
+968.7907
+1021.69995
+523.2746
+866.62946
+940.0596
+995.6158
+922.7935
+1323.3606
+731.4089
+858.41943
+885.19604
+1026.4747
+620.33563
+1173.431
+834.5299
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+ 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+ 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+ 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.]
+[1. 2. 1. 1. 2. 1. 1. 1. 2. 1. 1. 1. 1. 1. 1. 1. 1. 1. 2. 1. 1. 1. 1. 1.
+ 1. 2. 1. 1. 1. 1. 1. 1. 1. 1. 2. 1. 1. 1. 1. 1. 1. 1. 1. 2. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 1. 2. 1.
+ 1. 2. 1. 2. 2. 2. 2. 2. 2. 2. 1. 2. 2. 1. 2. 2. 1. 2. 1. 2. 2. 1. 1. 2.
+ 2. 1. 1. 2. 2. 2. 2. 1. 2. 2. 2. 2. 1. 2. 2. 2. 1. 2. 2. 2. 2. 2. 1. 2.
+ 1. 2. 2. 2. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2. 2.]
+[[50 18]
+ [ 7 61]]
+[[0.73529412 0.26470588]
+ [0.10294118 0.89705882]]
+[[73.52941176 26.47058824]
+ [10.29411765 89.70588235]]
+> Plot confusion matrix to ../T15_UNREFINED/result/anomaly/single_auto_all2_5_grey_confusion_mat.png ...
+/home/dpd/tensorflow/lib/python3.6/site-packages/matplotlib/cbook/deprecation.py:107: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  warnings.warn(message, mplDeprecation, stacklevel=1)
+
+Process finished with exit code 0
+
