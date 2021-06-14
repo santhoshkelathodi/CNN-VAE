@@ -1,6 +1,7 @@
 # CNN-VAE-based-Trajectory-Classification-and-Anomaly-Detection
 This is the code for the paper titled "Vehicular Trajectory Classification and Traffic Anomaly Detection in Videos Using a Hybrid CNN-VAE Architecture" https://arxiv.org/pdf/1812.07203.pdf
 
+The code was been developed using python 3 and tensorflow 1.5
 
 # Training
 
